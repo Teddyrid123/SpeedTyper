@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+/* action div */
+#action_div {
+    padding: 10px;
+}
+
+/* nav and footer */
+#navbar, #footer {
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.45);
+}
+
+/* .type_container {
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,0.45);
+} */
+
+
+/* content wrapper */
+.content_wrapper {
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+/* for tablet only */
+@media screen and (max-width: 768px) {
+    .content_wrapper {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+/* for small screen only */
+@media screen and (max-width: 425px) {
+    .content_wrapper {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #time_score_column {
+        margin-top: -25px;
+    }
+}
+
+#instru-title {
+    border-top: 1px solid rgb(42,42,42);
+    padding-top: 10px;
+}
+
+/* game alert */
+#gameAlert {
+    color: rgb(255,12,5);
+}
+
+/* message */
+#message{
+    color: red;
+    font-family: 'VT323', monospace;
+    font-size: 34px;
+}
+
+/* footer 
+ */
+#footer {
+    padding: 10px;
+    background-color: black;;
+    display: flex;
+    border-top: 1px solid gray;
+}
+
+
+/* current word  */
+#current-word {
+    font-size: 35px;
+}
+
+/* modal */
+.modal {
+    visibility: visible;
+}
+
+
+/* footer para */
+#footer-para {
+    margin: auto;
+}
+
+/* activities div */
+#timeout,
+#time,
+#the_score,
+#score {
+    font-family: 'VT323', monospace;
+}
+
+/* for small screen only */
+@media screen and (max-width: 425px) {
+    #timeout,
+    #time,
+    #the_score,
+    #score {
+        font-size: 19px;
+        color:white;   
+    }
+
+    /* jumbotron */
+    .jumbotron_two {
+        display: none;
+    }
+
+    /* instruction para  */
+    #instru-para {
+        font-size: 11px;
+    }
+
+    #instru-title {
+        font-size: 15px;
+    }
+
+    /* game alert */
+    #gameAlert {
+        font-size: 23px;
+    }
+    /* start btn */
+    #start-btn {
+        font-size: 12px;
+    }
+
+    /* introText */
+    #introText {
+        font-size:17px; 
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    /* footer para */
+    #footer-para {
+        font-size: 11px;
+    }
+
+}
+
+
+/* Modal style */
+.is-hidden { display: none; }
+
+.button-close {
+  display: inline-block;
+  width: 16px;
+  color: gray;
+  height: 16px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAowAAAKMB8MeazgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB5SURBVDiNrZPRCcAwCEQfnUiySAZuF8kSWeH6Yz8KrQZMQAicJ+epAB0YwAmYJKIADLic0/GPPCbQAnLznCd/4NWUFfkgy1VjH8CryA95ApYltAiTRCZxpuoW+gz9WXE6NPeg+ra1UDIxGlWEObe4SGxY5fIxlc75Bkt9V4JS7KWJAAAAAElFTkSuQmCC59ef34356faa7edebc7ed5432ddb673d');
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  padding: 20px 30px;
+  width: 200px;
+  position: relative;
+  min-height: 300px;
+  margin: 12% auto 0;
+  background: #fff;
+}

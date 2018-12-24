@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SpeedTyper</title> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+ crossorigin="anonymous">
+ <!-- favicon -->
+ <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+ <!-- bootswatch theme cdn -->
+ <link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.min.css"
+ <!-- font awesome cdn -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body class=" text-white ">
+  <!-- Just an image -->
+<nav class="navbar navbar-dark bg-dark" id="navbar">
+    <a class="navbar-brand" href="#">
+     <img src="logo.png" width="150" id="logo">
+    </a>
+</nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="content_wrapper">
+    <div class="container text-center d-sm-block d-md-none d-xl-none">
+      <div class="jumbotron shadow-lg rounded">
+        <div class="col-md-6 mx-auto">
+          <p class="lead" id="introText">Type the word below to begin...</p>
+          <h2 class="display-2 mb-5" id="current-word">hello</h2>
+            <div class="row d-sm-block d-md-none d-xl-none" id="time_score_column">
+              <div class="col-6 ">
+              <h3 id="timeout"><span id="time">0</span></h3>
+              </div>
+              <div class="col-6">             
+              <h3 id="the_score"><span id="score">0</span></h3>     
+              </div>
+            </div>
+          <input type="text" class="form-control form-control-md" placeholder="Start typing..." id="word-input" autofocus>
+          <h4 class="mt-3" id="message"></h4>
+          <h4 class="mt-3" id="yourScore"></h4>
+      </div>
+    </div>
+    </div>
+      <!-- time and score container -->
+        <div class="container text-center d-none d-md-none d-xl-none">
+          <div class="row">
+            <div class="col-6">
+              <div class="card rounded-left">
+                <div class="card-body shadow-lg">
+                  <h3 id="timeout">Countdown: <span id="time">0</span></h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body shadow-lg">
+                  <h3 id="the_score">Score: <span id="score">0</span></h3>    
+                </div>
+              </div>
+            </div>
+          </div> 
+      </div>
+
+      <!-- view only on desktop -->
+      <div class="jumbotron jumbotron_two text-center">
+        <h1 class="display-4">Oops!!!</h1>
+        <p class="lead">Please use your mobile phone to play this game.</p>
+      </div>
+
+
+<!-- footer -->
+  <nav class="navbar navbar-light text-center">
+    <P id="footer-para">Build with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> by Joseph T. Smith</P>
+  </nav>
+<!-- bootstrap jquery CDN link -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- costum js link -->
+ <script src="js/main.js"></script>
+</body>
+
+</html>
