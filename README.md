@@ -1,0 +1,2 @@
+# SpeedTyper
+A typing game
